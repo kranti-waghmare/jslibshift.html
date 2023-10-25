@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="horsestop()">horsestop</button>
+
+    <img src="https://www.shutterstock.com/image-photo/white-horse-standing-on-green-260nw-756457801.jpg" id="horseimg" height="300px" width="300px">
+
+    <button onclick="horsestart()">horsestart</button>
+
+
+
+    <script>
+        function horsestop(){
+            document.getElementById('horseimg').src="https://www.shutterstock.com/image-photo/white-horse-standing-on-green-260nw-756457801.jpg";
+        }
+
+        function horsestart(){
+            document.getElementById('horseimg').src="https://media.istockphoto.com/id/1412422445/photo/white-horse-with-long-mane-run-in-sunset-desert.webp?b=1&s=170667a&w=0&k=20&c=DsnHXsPxKSDVp9W4L7L1dQAVXJjtpeSPuI8Zd9UpWs8=";
+        }
+    </script>
+</body>
+</html>
